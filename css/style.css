@@ -13,8 +13,14 @@ body {
 /* Apice pagina */
 header {
     background-color: white;
+    padding: 10px;
+    position: relative;
 }
 
 .nome-sito {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     display: inline-block
 }
+
