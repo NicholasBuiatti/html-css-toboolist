@@ -24,3 +24,37 @@ header {
     display: inline-block
 }
 
+/* Corpo della pagina */
+main {
+    background-color: white;
+    height: 80vh;
+    width: 70vw;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* parte pulsanti */
+.pulsanti-add {
+    padding: 10px 40px;
+    
+}
+
+.pulsante {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.add-task {
+    background-color: blue;
+    color: white;
+    border: solid blue;
+    
+}
+
+.add-section {
+    color: gray;
+    border-style: solid;
+    border-color: gray;
+}
+
+/* tendina */
