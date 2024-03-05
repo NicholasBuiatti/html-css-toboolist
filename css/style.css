@@ -17,26 +17,39 @@ header {
     position: relative;
 }
 
-.nome-sito {
+h1 {
+    font-size: 40px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    display: inline-block
+    display: inline-block;
 }
 
 /* Corpo della pagina */
+
+hr {
+    background-color: lightgray;
+    border: none;
+    height: 1px;
+}
+
 main {
     background-color: white;
-    height: 80vh;
+    height: 100vh;
     width: 70vw;
     border-radius: 10px;
     margin: 20px auto;
 }
 
 /* parte pulsanti */
-.pulsanti-add {
+
+.menù {
+    position: relative;
+}
+
+.pulsanti-add,
+.casella {
     padding: 10px 40px;
-    
 }
 
 .pulsante {
@@ -58,3 +71,72 @@ main {
 }
 
 /* tendina */
+
+.triangolo {
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.titolo-tendina {
+    font-size: 30px;
+}
+
+.Sotto-riga {
+    margin: 10px;
+}
+
+.simbolo {
+    border: 2px solid green;
+    color: green;
+    border-radius: 40px;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.croce {
+    color: red;
+    border: solid red;
+}
+
+h2 {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+p {
+    background-color: blue;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 9px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.Q1 {
+    background-color: violet;
+}
+
+.recruiting {
+    background-color: green;
+}
+
+.mobile {
+    background-color: red;
+}
+
+.refresh {
+    background-color: orange;
+}
+
+.sales {
+    background-color: black;
+}
