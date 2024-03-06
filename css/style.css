@@ -17,6 +17,11 @@ header {
     position: relative;
 }
 
+.logo {
+    margin-right: 10px;
+    display: inline-block;
+}
+
 h1 {
     font-size: 40px;
     position: absolute;
@@ -35,7 +40,7 @@ hr {
 
 main {
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 70vw;
     border-radius: 10px;
     margin: 20px auto;
